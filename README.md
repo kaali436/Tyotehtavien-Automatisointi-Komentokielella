@@ -19,11 +19,14 @@ Tämä ohjelma hakee säätiedot halutuista kaupungeista Open-Meteo API:n avulla
 - Tarvittavat Python-kirjastot:
   pip install requests
 
+Automatisointi
+- Skriptin pitäisi toimia task schedulerilla ja cronilla
+
 Siirrettävyys
 - Skripti toimii kaikilla koneilla, joilla on Python 3.9+ ja internet-yhteys.
 
 Mahdolliset rajoitteet
-- Ohjelma näyttää vain nykyisen sään (current_weather) eikä ennusteita.
+- Ohjelma näyttää vain nykyisen sään eikä ennusteita.
 - Jos kaupunkia ei löydy API:sta, ohjelma ilmoittaa, ettei säätietoja saatu.
 - Ohjelma ei käsittele virheellisiä syötteitä kovin monipuolisesti; käyttäjän pitää syöttää oikea kaupungin nimi.
 
